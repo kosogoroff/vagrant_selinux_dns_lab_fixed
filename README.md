@@ -45,7 +45,7 @@ update failed: SERVFAIL
 При использовании нового репозитория ошибки при изменении динамических зон не возникает:
 
 ```
-admin_insta11@mv334 ~]$ mv vagrant_selinux_dns_problems_kvm_fixed vagrant_selinux_dns_problems_fixed
+admin_insta11@mv334 ~]$ mv vagrant_selinux_dns_problems vagrant_selinux_dns_problems_fixed
 [admin_insta11@mv334 ~]$ cd vagrant_selinux_dns_problems_fixed
 [admin_insta11@mv334 vagrant_selinux_dns_problems_fixed]$ vagrant up
 Bringing machine 'ns01' up with 'virtualbox' provider...
